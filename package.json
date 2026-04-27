@@ -1,0 +1,12 @@
+{
+  "name": "discord-auto-embed",
+  "version": "1.0.0",
+  "description": "Bot auto kirim embed sponsor setiap 5 jam",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
