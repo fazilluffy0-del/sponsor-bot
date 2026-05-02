@@ -7,37 +7,21 @@ const embeds = [
 
   // ==================== EMBED 1 ====================
   {
-    username: "SPONSORSHIP JING ARENA INDONESIA",
+    username: "Sponsorship Bot",
     embeds: [
       {
-        title: "OPHELIA ROLEPLAY 🩷",
+        title: "SPONSOR 1",
         description: [
-          "Halo Warga Ophelia! 🚗✨",
+          "Isi konten sponsor di sini...",
           "",
-          "Sekarang kamu bisa langsung mulai perjalanan di kota Ophelia Roleplay dengan berbagai keuntungan menarik:",
-          "https://discord.gg/opheliaroleplay",
-          "",
-          "🔥 Benefit Starter Pack untuk warga baru:",
-          "✅ 2 Kendaraan Starter Pack langsung siap dipakai",
-          "✅ Khusus Ladies mendapatkan tambahan 1 kendaraan",
-          "✅ Uang awal untuk memulai kehidupan di kota",
-          "✅ Asuransi warga baru untuk perlindungan di awal",
-          "✅ Sistem mudah & langsung bisa digunakan",
-          "✅ Support aktif & siap membantu",
-          "✅ Server online 24 Jam nonstop",
-          "",
-          "Nikmati pengalaman roleplay yang lebih seru, praktis, dan penuh cerita tanpa ribet 🙌",
-          "",
-          "Terima kasih sudah bergabung dan menjadi bagian dari Ophelia Roleplay 🩷",
-          "",
-          "<@&1313946254652346471>"
+          "@Player Verify"
         ].join("\n"),
-        color: 0xff69b4, // Pink
+        color: 0x5865f2, // Biru Discord
         thumbnail: {
-          url: "https://media.discordapp.net/attachments/1486008288716914850/1486718189269286952/ORP_NO_BG.png?ex=69ee12b6&is=69ecc136&hm=08978091502e586de94fecf25ce914369ca30639aa3788c3cb98a7be9cab70ed&=&format=webp&quality=lossless&width=552&height=552"
+          url: "" // Isi URL logo sponsor
         },
         image: {
-          url: "https://media.discordapp.net/attachments/1486008288716914850/1486716950448181308/OPHELIA_ROLEPLAY1.png?ex=69ee118e&is=69ecc00e&hm=fd42e7bbcb8095322b8b616922a1378d2b594d1ebab3454c1b9ae596686a806b&=&format=webp&quality=lossless&width=1318&height=124"
+          url: "" // Isi URL banner sponsor
         }
       }
     ]
@@ -45,35 +29,21 @@ const embeds = [
 
   // ==================== EMBED 2 ====================
   {
-    username: "SPONSORSHIP JING ARENA INDONESIA",
+    username: "Sponsorship Bot",
     embeds: [
       {
-        title: "BULL RBX",
+        title: "SPONSOR 2",
         description: [
-          "Halo Sobat Bull RBX! 🚀",
+          "Isi konten sponsor di sini...",
           "",
-          "Sekarang pembelian RBX 5 Hari sudah bisa langsung order melalui website resmi kami:",
-          "https://bullrbx.com/",
-          "",
-          "🔥 Pengiriman RBX 5 Hari sudah OTOMATIS menggunakan BOT",
-          "✅ Kirim otomatis saat stock tersedia di website",
-          "✅ Tidak perlu menunggu admin",
-          "✅ Proses cepat & sistem langsung berjalan",
-          "✅ Online 24 Jam Nonstop",
-          "✅ 100% Aman & Terpercaya",
-          "",
-          "Jadi kamu bisa order kapan saja tanpa ribet, tanpa antri, dan tanpa tunggu lama 🙌",
-          "",
-          "Terima kasih sudah mempercayakan kebutuhan RBX kamu di Bull RBX 🩷",
-          "",
-          "<@&1313946254652346471>"
+          "@Player Verify"
         ].join("\n"),
-        color: 0xff0000, // Merah
+        color: 0x5865f2, // Biru Discord
         thumbnail: {
-          url: "https://media.discordapp.net/attachments/1477598086175129671/1477672731339391217/BULL_RBX.png?ex=69ee1ff8&is=69ecce78&hm=50584b8c65ed4e79356c8b9acdd1af84d6c863073c2a48c188c71d95314c575b&=&format=webp&quality=lossless&width=552&height=552"
+          url: "" // Isi URL logo sponsor
         },
         image: {
-          url: "https://media.discordapp.net/attachments/1477598086175129671/1478313376403947590/Bullrb_banner_1_rev.png?ex=69ee7a5e&is=69ed28de&hm=b1260f639f469be35a1db8952f28a6abf7810f53361ae71d0c9113e41e1edbb0&=&format=webp&quality=lossless&width=1318&height=124"
+          url: "" // Isi URL banner sponsor
         }
       }
     ]
