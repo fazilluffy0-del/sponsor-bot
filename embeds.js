@@ -29,14 +29,27 @@ const embeds = [
 
   // ==================== EMBED 2 ====================
   {
-    username: "Sponsorship Bot",
+    username: "SPONSORSHIP JING ARENA INDONESIA",
     embeds: [
       {
-        title: "SPONSOR 2",
+        title: "GARUDA PRIME ROLEPLAY",
         description: [
-          "Isi konten sponsor di sini...",
+          "THE NEXT LEVEL OF ROLEPLAY IS HERE! ⚡",
+          "Ingin merasakan pengalaman Roleplay yang beda, seru, dan didukung oleh komunitas yang solid?",
+          " GARUDA PRIME ROLEPLAY adalah tempat terbaik buat kamu membangun cerita dan karir impianmu!",
           "",
-          "@Player Verify"
+          "dan Admin yang siap sedia melayani kamu.",
+          "Dari aksi jalanan yang menegangkan sampai dunia bisnis yang kompetitif, semua ada di sini. Saatnya kamu jadi karakter utama!",
+          "",
+          "✨ Join Komunitas Kami Sekarang:",
+          "https://discord.gg/garudaprime",
+          "",
+          "TikTok: https://www.tiktok.com/@garudaprime.rp",
+          "",
+          "Instagram: https://www.instagram.com/garudaprime.rp/",
+          "",
+          "Follow / Join Discord kami biar nggak ketinggalan info kota terbaru yaa!",
+          "<@&1313946254652346471>"
         ].join("\n"),
         color: 0x5865f2, // Biru Discord
         thumbnail: {
