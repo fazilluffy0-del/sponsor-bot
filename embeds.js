@@ -67,36 +67,36 @@ const embeds = [
     username: "SPONSORSHIP JING ARENA INDONESIA",
     embeds: [
       {
-        title: "BAHUI STORE",
+        title: "KING MARKET",
         description: [
-          "BAHUI SHOP v4",
-          "menyediakan segala kebutuhan Fivem Shop Apk premium & dc nytr0",
+          "KING MARKET",
+          "Top 1 Five M  & App Premium Market!",
           "",
           "Rockstar Account Rp 15.000 ( Order Otomatis )",
           "Custom Skin Five M Termurah",
           "Custom Soundpack",
           "Custom Grapich",
-          "Optimaze Pc Rp 80.000 Termurah",
-          "Spotify Premium Lifetime Bergaransi",
-          "Capcut Pro Lifetime Bergaransi",
+          "Spotify Premium",
+          "Capcut Pro",
+          "ChatGPT",
           "Netflix Private Termurah",
           "Dc Nytr0 Termurah",
+          "Dan masi banyak lain nya",
           "",
-          "Server lama kami Bahui Store, Bahui store v2, Bahui Shop Terkena suspen lagi oleh discord jadi bagi yang masih ada orderan / mencari server baru kami silahkan join link di bawah",
+          "kami supplier nomor 1 termurah ,kami juga open reseller di jamin easy to resell sisa beberapa slot saja buruan join skrg",
           "",
-          "kami supplier nomor 1 termurah, kami juga open reseller di jamin easy to resell sisa beberapa slot saja buruan join skrg",
+          "We Official Partner With KING GROUP by",
+          "PT KANJENG RAJANTARA ABADI ",
           "",
-          "#1 SUPPLIER APP PREMIUM & TERMURAH",
-          "",
-          "https://discord.gg/bahuishopp",
+          "https://discord.gg/kingmarket",
           "<@&1313946254652346471>"
         ].join("\n"),
-        color: 0xff69b4, // Pink
+        color: 0xffd700, // Gold
         thumbnail: {
-          url: "https://media.discordapp.net/attachments/1436654202402373632/1437372965925949480/bahu_png.png?ex=69ee8324&is=69ed31a4&hm=dd25a38239174b13b49aec7a54a01dc87a1a539e460b28154bcf78c4db6741b8&=&format=webp&quality=lossless&width=656&height=656"
+          url: "https://media.discordapp.net/attachments/1436654202402373632/1516783803769819346/logo_KINGMARKET.png?ex=6a33e67f&is=6a3294ff&hm=907ead8062e557488ea8f2c4d537fb44dec22ea697978c8341bead9c818b5068&=&format=webp&quality=lossless"
         },
         image: {
-          url: "https://media.discordapp.net/attachments/1436654202402373632/1456253096358318100/image.png?ex=69eea4a2&is=69ed5322&hm=4f5003859b215d3e51ab467d2b952783e794f21510575f9513525bd60138d362&=&format=webp&quality=lossless&width=1318&height=124"
+          url: "https://media.discordapp.net/attachments/1436654202402373632/1516783457358053406/FIVE_M_PRODUCT.png?ex=6a33e62c&is=6a3294ac&hm=2935fd0b5e3e3f134a55011e91ee54b3d0c7535fb1e299d07efb0fed74d1b2a2&=&format=webp&quality=lossless&width=1318&height=124"
         }
       }
     ]
