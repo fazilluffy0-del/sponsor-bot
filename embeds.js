@@ -108,38 +108,21 @@ const embeds = [
     username: "SPONSORSHIP JING ARENA INDONESIA",
     embeds: [
       {
-        title: "GLORIX VII TOWN ANNIVERSARY EVENT",
+    username: "Sponsorship Bot",
+    embeds: [
+      {
+        title: "SPONSOR 1",
         description: [
-          "GLORIX VII TOWN",
+          "Isi konten sponsor di sini...",
           "",
-          "Dalam rangka merayakan ulang tahun ke-1 Glorix VII Town pada 7 Juli 2026,",
-          " sekaligus sebagai bentuk apresiasi kepada seluruh warga yang telah meramaikan, membangun,",
-          "dan menjadikan Glorix VII Town sebagai rumah",
-          " kami menghadirkan rangkaian event dengan total hadiah:",
-          "TOTAL PRIZE 200.000.000 OOC",
-          "",
-          "Event:",
-          "✅ Event War (coming soon)",
-          "✅ Event Balap (coming soon)",
-          "✅ Event RP: Romance, Keluarga, Politik/Bisnis Terbaik",
-          "",
-          "Khusus Event War dan Event Balap, penilaian menggunakan sistem playtime.",
-          "Seluruh event terbuka bagi seluruh warga Glorix VII Town.",
-          "",
-          "Pemenang akan diumumkan pada 7 Juli 2026, bertepatan dengan hari ulang tahun Glorix VII Town.",
-          "Detail lengkap, jadwal, dan mekanisme akan diumumkan dalam waktu dekat.",
-          "Karena di Glorix VII Town bukan sekadar tempat bermain, tetapi juga rumah bagi kita semua.",
-          "",
-          "JOIN US :",
-          "https://discord.gg/7glory-roleplay",
-          "<@&1313946254652346471>"
+          "@Player Verify"
         ].join("\n"),
         color: 0x5865f2, // Biru Discord
         thumbnail: {
-          url: "https://media.discordapp.net/attachments/1497130192127131668/1497912256451707062/image.png?ex=69ef3eff&is=69eded7f&hm=c8f954e4029357e1adccc7f9995af54de4489f38760bc642533414665ed025d5&=&format=webp&quality=lossless&width=350&height=350" // Isi URL logo sponsor
+          url: "" // Isi URL logo sponsor
         },
         image: {
-          url: "https://media.discordapp.net/attachments/1497130192127131668/1497911996899917854/banner_anniversary_glorix_xii_town.png?ex=69ef3ec1&is=69eded41&hm=0979fa5e6a78123a63eadfd2f24adf073a41a21d83b1c11d0b1e11f7e28e19da&=&format=webp&quality=lossless&width=1318&height=124" // Isi URL banner sponsor
+          url: "" // Isi URL banner sponsor
         }
       }
     ]
