@@ -4,6 +4,8 @@
 // =====================================================
 
 const https = require("https");
+const fs = require("fs");
+const path = require("path");
 const embeds = require("./embeds");
 
 // ===================== KONFIGURASI =====================
@@ -13,6 +15,31 @@ const DELAY_ANTAR_EMBED = 2000; // Jeda antar embed dalam milidetik (2 detik)
 // =======================================================
 
 const INTERVAL_MS = INTERVAL_JAM * 60 * 60 * 1000;
+
+// ===================== ANTI KIRIM DOBEL =====================
+// File ini menyimpan timestamp terakhir kali batch embed berhasil dikirim.
+// Kalau proses restart (misalnya karena hosting merestart/crash) dan waktu
+// sejak pengiriman terakhir belum sampai INTERVAL_MS, bot TIDAK akan kirim
+// ulang — jadi mencegah embed dobel akibat restart mendadak.
+const LOCK_FILE = path.join(__dirname, ".last-send.json");
+
+function bacaWaktuTerakhirKirim() {
+  try {
+    const data = JSON.parse(fs.readFileSync(LOCK_FILE, "utf8"));
+    return data.lastSend || 0;
+  } catch {
+    return 0; // Belum pernah kirim / file belum ada
+  }
+}
+
+function simpanWaktuTerakhirKirim(timestamp) {
+  try {
+    fs.writeFileSync(LOCK_FILE, JSON.stringify({ lastSend: timestamp }, null, 2));
+  } catch (err) {
+    console.error("Gagal menyimpan lock file:", err.message);
+  }
+}
+// ==============================================================
 
 function kirimWebhook(data) {
   return new Promise((resolve, reject) => {
@@ -75,14 +102,32 @@ async function kirimSemuaEmbed() {
     }
   }
 
+  simpanWaktuTerakhirKirim(Date.now());
   console.log(`Selesai! Embed berikutnya dalam ${INTERVAL_JAM} jam.\n`);
 }
 
-// Jalankan langsung saat bot start
-kirimSemuaEmbed();
+// ===================== STARTUP =====================
+// Cek kapan terakhir kali embed berhasil dikirim. Kalau belum melewati
+// INTERVAL_MS, jangan kirim lagi (mencegah dobel akibat restart mendadak),
+// cukup jadwalkan sisa waktunya saja.
+const lastSend = bacaWaktuTerakhirKirim();
+const sudahLewat = Date.now() - lastSend;
 
-// Ulangi setiap X jam
-setInterval(kirimSemuaEmbed, INTERVAL_MS);
+if (lastSend > 0 && sudahLewat < INTERVAL_MS) {
+  const sisaMs = INTERVAL_MS - sudahLewat;
+  const sisaJam = (sisaMs / (60 * 60 * 1000)).toFixed(2);
+  console.log(`Restart terdeteksi. Batch embed terakhir baru dikirim ${(sudahLewat / 60000).toFixed(1)} menit lalu.`);
+  console.log(`Melewati pengiriman sekarang. Pengiriman berikutnya dalam ${sisaJam} jam.\n`);
+
+  setTimeout(() => {
+    kirimSemuaEmbed();
+    setInterval(kirimSemuaEmbed, INTERVAL_MS);
+  }, sisaMs);
+} else {
+  // Belum pernah kirim, atau sudah lewat interval -> aman untuk kirim sekarang
+  kirimSemuaEmbed();
+  setInterval(kirimSemuaEmbed, INTERVAL_MS);
+}
 
 console.log(`Bot aktif! Embed akan dikirim setiap ${INTERVAL_JAM} jam.`);
 console.log(`Tekan Ctrl+C untuk menghentikan bot.\n`);
