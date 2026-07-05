@@ -62,7 +62,11 @@ const embeds = [
     ]
   },
 
-  // ==================== EMBED 3 ====================
+  // ==================== EMBED 3 (NONAKTIF) ====================
+  // KING MARKET — nonaktif sementara. Kalau mau aktifkan lagi:
+  // 1. Hapus baris "/*" di bawah ini dan baris "*/" di paling bawah blok ini
+  // 2. Simpan file
+  /*
   {
     username: "SPONSORSHIP JING ARENA INDONESIA",
     embeds: [
@@ -101,6 +105,7 @@ const embeds = [
       }
     ]
   },
+  */
 
   // ==================== EMBED 4 ====================
   // Sponsor belum ada, isi nanti
