@@ -110,43 +110,21 @@ const embeds = [
   // ==================== EMBED 4 ====================
   // Sponsor belum ada, isi nanti
   {
-    username: "SPONSORSHIP JING ARENA INDONESIA",
+    username: "Sponsorship Bot",
     embeds: [
       {
-        title: "OPHELIA ROLEPLAY",
+        title: "SPONSOR 1",
         description: [
-          "OPHELIA ROLEPLAY EVENTS",
-          "Dalam rangka untuk menyambut NEW ERA OPHELIA ROLEPLAY pada tanggal 1 Juli 2026 ",
-          "serta sebagai bentuk untuk memberikan apresiasi kepada warga-warga yang telah",
-          "membantu serta membangun cerita di Ophelia Roleplay.",
-          " Kami menghadirkan serangkaian event dengan total hadiah:",
+          "Isi konten sponsor di sini...",
           "",
-          "TOTAL PRIZE 25.000.000JT RUPIAH",
-          "",
-          "Event:",
-          "• Battleground Event",
-          "• Playtime Event",
-          "",
-          "Untuk PRIZEPOOL tersebut sifatnya dapat berubah",
-          "dikarenakan kami melakukan OPEN SPONSORSHIP ",
-          "bagi yang ingin ikut serta meramaikan event yang kami selenggarakan! ",
-          "Dan tentu juga, terdapat benefit yang dapat kami tawarkan untuk para SPONSORSHIP!",
-          "",
-          "Event ini bersifat TERBUKA untuk seluruh warga Ophelia Roleplay.",
-          "Untuk detail lengkap,jadwal, serta mekanisme",
-          "dapat kalian check di discord utama kami",
-          "",
-          "SO JOIN US!",
-          "https://discord.gg/BaPDJPVPQ4",
-          "",
-          "<@&1313946254652346471>"
+          "@Player Verify"
         ].join("\n"),
-        color: 0xed4245, // Merah Discord
+        color: 0x5865f2, // Biru Discord
         thumbnail: {
-          url: "https://media.discordapp.net/attachments/1521443047097765950/1521521901992673331/image.png?ex=6a45cbf1&is=6a447a71&hm=28349401008d51bd325602e49bff5e4f461a0895c305b87d8fe2ec7cd137fa13&=&format=webp&quality=lossless&width=828&height=552" // Isi URL logo sponsor
+          url: "" // Isi URL logo sponsor
         },
         image: {
-          url: "https://media.discordapp.net/attachments/1521443047097765950/1521521766843940864/image.png?ex=6a45cbd1&is=6a447a51&hm=c9a57ecc141b6f973fed117866bf9967578b070f47fa74eba6ea86cf5795eb52&=&format=webp&quality=lossless" // Isi URL banner sponsor
+          url: "" // Isi URL banner sponsor
         }
       }
     ]
