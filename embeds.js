@@ -12,7 +12,8 @@ const embeds = [
       {
         title: "RUMAH KITA ROLEPLAY",
         description: [
-          "🏡 WHERE EVERY STORY BEGINS.",
+          "**🏡 WHERE EVERY STORY BEGINS.**",
+          
           "Sedang mencari server Roleplay yang menghadirkan pengalaman bermain yang seru,stabil, dan berkualitas?",
           "Rumah Kita Roleplay siap menjadi tempat untuk membangun cerita dan perjalanan karaktermu.",
           "",
@@ -50,7 +51,8 @@ const embeds = [
       {
         title: "GARUDA PRIME ROLEPLAY",
         description: [
-          "THE NEXT LEVEL OF ROLEPLAY IS HERE! ⚡",
+          "**THE NEXT LEVEL OF ROLEPLAY IS HERE! ⚡**",
+          
           "Ingin merasakan pengalaman Roleplay yang beda, seru, dan didukung oleh komunitas yang solid?",
           " GARUDA PRIME ROLEPLAY adalah tempat terbaik buat kamu membangun cerita dan karir impianmu!",
           "",
