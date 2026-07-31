@@ -10,41 +10,34 @@ const embeds = [
     username: "SPONSORSHIP JING ARENA INDONESIA",
     embeds: [
       {
-        title: "OPHELIA ROLEPLAY",
+        title: "RUMAH KITA ROLEPLAY",
         description: [
-          "OPHELIA ROLEPLAY EVENTS ⚡",
-          "Dalam rangka untuk menyambut NEW ERA OPHELIA ROLEPLAY pada tanggal 1 Juli 2026",
-          " serta sebagai bentuk untuk memberikan apresiasi kepada warga-warga",
-          "yang telah membantu serta membangun cerita di Ophelia Roleplay.",
+          "🏡 WHERE EVERY STORY BEGINS.",
+          "Sedang mencari server Roleplay yang menghadirkan pengalaman bermain yang seru,stabil, dan berkualitas?",
+          "Rumah Kita Roleplay siap menjadi tempat untuk membangun cerita dan perjalanan karaktermu.",
           "",
-          "Kami menghadirkan serangkaian event dengan total hadiah:",
-          "TOTAL PRIZE 25.000.000JT RUPIAH",
+          "Di Rumah Kita Roleplay, kami percaya bahwa kenyamanan bukan sekadar tujuan,",
+          "tapi standar yang harus diwujudkan.",
+          "Oleh karena itu, kami terus menghadirkan lingkungan bermain yang nyaman,",
+          "komunitas yang aktif, serta berbagai fitur yang dirancang untuk memberikan pengalaman roleplay terbaik.",
           "",
-          "Event:",
-          "• Battleground Event",
-          "• Playtime Event",
+          "Dari kehidupan sipil, dunia bisnis, hingga berbagai profesi dan aktivitas yang menantang,",
+          "semuanya dapat kamu jalani dengan kebebasan untuk menciptakan kisahmu sendiri.",
           "",
-          "Untuk PRIZEPOOL tersebut sifatnya dapat berubah",
-          "dikarenakan kami melakukan OPEN SPONSORSHIP",
-          "bagi yang ingin ikut serta meramaikan event yang kami selenggarakan!",
-          "Dan tentu juga, terdapat benefit yang dapat kami tawarkan untuk para SPONSORSHIP!",
+          "🏡 MULAI CERITA MU DISINI",
+          "https://discord.gg/rkrp",
           "",
-          "Event ini bersifat TERBUKA untuk seluruh warga Ophelia Roleplay.",
-          "",
-          "Untuk detail lengkap,jadwal, serta mekanisme dapat kalian check di discord utama kami",
-          "",
-          "✨ Join Komunitas Kami Sekarang:",
-          "https://discord.gg/BaPDJPVPQ4",
+          "TikTok: https://www.tiktok.com/@rumahkitarp",
           "",
           "Follow / Join Discord kami biar nggak ketinggalan info kota terbaru yaa!",
           "<@&1313946254652346471>"
         ].join("\n"),
         color: 0x5865f2, // Biru Discord
         thumbnail: {
-          url: "https://media.discordapp.net/attachments/1521443047097765950/1521521766843940864/image.png?ex=6a6c0751&is=6a6ab5d1&hm=4499286f599520ac4d0bc5e53bbe313e09928eff2628a66747594c22fec0cb47&=&format=webp&quality=lossless"
+          url: "https://media.discordapp.net/attachments/1532412231923404932/1532418773343015094/image.png?ex=6a6cc7b2&is=6a6b7632&hm=1a7928350c5fa241a4ab335367d64a2ad02f5099afe701d7f52fff62c8ec1e98&=&format=webp&quality=lossless&width=640&height=640" // Isi URL logo sponsor
         },
         image: {
-          url: "https://media.discordapp.net/attachments/1521443047097765950/1521521901992673331/image.png?ex=6a6c0771&is=6a6ab5f1&hm=79a872b65406111b78508bec9fcded8d066ec3fdc18d6f9ffda0ad5d4f8a6f05&=&format=webp&quality=lossless&width=768&height=512"
+          url: "https://media.discordapp.net/attachments/1532412231923404932/1532552428577230879/Banner_Rumah_Kita.jpg?ex=6a6d442c&is=6a6bf2ac&hm=fbff5c876137dc71a916f6d73b9820374e309af61f5f25cf2c73ee598f58c528&=&format=webp" // Isi URL banner sponsor
         }
       }
     ]
@@ -131,7 +124,12 @@ const embeds = [
   */
 
   // ==================== EMBED 4 ====================
-  // Sponsor belum ada, isi nanti
+  // Sponsor belum ada, isi nanti.
+  // CATATAN: thumbnail & image sengaja DIHAPUS dari sini karena kalau
+  // url dibiarkan kosong (""), Discord API bisa menolak/error saat kirim embed.
+  // Kalau sudah punya URL logo/banner, tinggal tambahkan lagi:
+  //   thumbnail: { url: "https://...” },
+  //   image: { url: "https://..." },
   {
     username: "Sponsorship Bot",
     embeds: [
@@ -142,13 +140,7 @@ const embeds = [
           "",
           "@Player Verify"
         ].join("\n"),
-        color: 0x5865f2, // Biru Discord
-        thumbnail: {
-          url: "" // Isi URL logo sponsor
-        },
-        image: {
-          url: "" // Isi URL banner sponsor
-        }
+        color: 0x5865f2 // Biru Discord
       }
     ]
   }
