@@ -74,7 +74,7 @@ const embeds = [
           url: "https://media.discordapp.net/attachments/1321720260327641118/1505944794583793844/image.png?ex=6a165b22&is=6a1509a2&hm=0c558c027564e0a12c78b04b9314562ee6b351b01b51a2d4079ea6e32d1c1830&=&format=webp&quality=lossless&width=1005&height=565"
         },
         image: {
-          url: "https://media.discordapp.net/attachments/1321720260327641118/1505944576106692680/banner_Iklan_Jing_Arena_copy.png?ex=6a165aee&is=6a15096e&hm=53aeda319f4f2e53ec86b385b6fc1c994259a99142f7f82b4349cb6c3f5b70ab&=&format=webp&quality=lossless&width=1334&height=125"
+          url: "https://media.discordapp.net/attachments/1321720260327641118/1533048678300909578/image.png?ex=6a6fbb17&is=6a6e6997&hm=9a0356e13c683f57160a8d926ef086822910fc657e0d34073ee8d584790aa221&=&format=webp&quality=lossless&width=1280&height=120"
         }
       }
     ]
