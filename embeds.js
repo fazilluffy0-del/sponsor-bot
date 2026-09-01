@@ -24,6 +24,8 @@ const embeds = [
           "",
           "Badside kalian AKTIF dan JAGO Bikin Cerita RP? Siap Dibayar? 🤑,",
           "",
+          "**DUNIA KITA ROLEPLAY** Siap Membayar Badside / Family yang bisa membuat cerita RP & full benefit IC / OOC",
+          "",
           "Langsung saja join **DUNIA KITA ROLEPLAY** Sekarang ‼️💎",
           "https://discord.gg/duniakitarp",
           "",
