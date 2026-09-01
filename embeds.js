@@ -10,35 +10,34 @@ const embeds = [
     username: "SPONSORSHIP JING ARENA INDONESIA",
     embeds: [
       {
-        title: "RUMAH KITA ROLEPLAY",
+        title: "DUNIA KITA ROLEPLAY",
         description: [
-          "**🏡 WHERE EVERY STORY BEGINS.**",
+          "**FULL BENEFIT IC OOC 💵.**",
           "",
           "Sedang mencari server Roleplay yang menghadirkan pengalaman bermain yang seru,stabil, dan berkualitas?",
-          "Rumah Kita Roleplay siap menjadi tempat untuk membangun cerita dan perjalanan karaktermu.",
+          "Dunia Kita Roleplay siap menjadi tempat untuk membangun cerita dan perjalanan karaktermu.",
           "",
-          "Di Rumah Kita Roleplay, kami percaya bahwa kenyamanan bukan sekadar tujuan,",
-          "tapi standar yang harus diwujudkan.",
-          "Oleh karena itu, kami terus menghadirkan lingkungan bermain yang nyaman,",
-          "komunitas yang aktif, serta berbagai fitur yang dirancang untuk memberikan pengalaman roleplay terbaik.",
+          "Konsep roleplay yang bisa membangun bisnis dengan menggunakan uang ic,",
+          "Anti Patem System,",
+          "Badside Fitur Anti Blast,",
+          "Penasaran?.",
           "",
-          "Dari kehidupan sipil, dunia bisnis, hingga berbagai profesi dan aktivitas yang menantang,",
-          "semuanya dapat kamu jalani dengan kebebasan untuk menciptakan kisahmu sendiri.",
+          "Badside kalian AKTIF dan JAGO Bikin Cerita RP? Siap Dibayar? 🤑,",
           "",
-          "🏡 MULAI CERITA MU DISINI",
-          "https://discord.gg/rkrp",
+          "Langsung saja join **DUNIA KITA ROLEPLAY** Sekarang ‼️💎",
+          "https://discord.gg/duniakitarp",
           "",
-          "TikTok: https://www.tiktok.com/@rumahkitarp",
+          "TikTok: https://www.tiktok.com/@duniakitaroleplay",
           "",
           "Follow / Join Discord kami biar nggak ketinggalan info kota terbaru yaa!",
           "<@&1313946254652346471>"
         ].join("\n"),
-        color: 0x5865f2, // Biru Discord
+        color: 0x5865f2, // Pink
         thumbnail: {
-          url: "https://media.discordapp.net/attachments/1532412231923404932/1532418773343015094/image.png?ex=6a6cc7b2&is=6a6b7632&hm=1a7928350c5fa241a4ab335367d64a2ad02f5099afe701d7f52fff62c8ec1e98&=&format=webp&quality=lossless&width=640&height=640" // Isi URL logo sponsor
+          url: "https://media.discordapp.net/attachments/1542609077966737460/1544206717171007528/logo.png?ex=6a97aa13&is=6a965893&hm=34b530bb45230f22d9414f974cfa61018bd4882a71b4aadcd95314b35ae5c756&=&format=webp&quality=lossless&width=768&height=768" // Isi URL logo sponsor
         },
         image: {
-          url: "https://media.discordapp.net/attachments/1532412231923404932/1532552428577230879/Banner_Rumah_Kita.jpg?ex=6a6d442c&is=6a6bf2ac&hm=fbff5c876137dc71a916f6d73b9820374e309af61f5f25cf2c73ee598f58c528&=&format=webp" // Isi URL banner sponsor
+          url: "https://media.discordapp.net/attachments/1542609077966737460/1544201962176643173/dkbanners.png?ex=6a97a5a5&is=6a965425&hm=36f504e4afb3298a40226834e259d93f831e4c5836267d1da53897b122d06a17&=&format=webp&quality=lossless" // Isi URL banner sponsor
         }
       }
     ]
