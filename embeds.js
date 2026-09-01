@@ -34,7 +34,7 @@ const embeds = [
           "Follow / Join Discord kami biar nggak ketinggalan info kota terbaru yaa!",
           "<@&1313946254652346471>"
         ].join("\n"),
-        color: 0x5865f2, // Pink
+        color: 0xff0f6b, // Pink
         thumbnail: {
           url: "https://media.discordapp.net/attachments/1542609077966737460/1544206717171007528/logo.png?ex=6a97aa13&is=6a965893&hm=34b530bb45230f22d9414f974cfa61018bd4882a71b4aadcd95314b35ae5c756&=&format=webp&quality=lossless&width=768&height=768" // Isi URL logo sponsor
         },
