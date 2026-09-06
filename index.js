@@ -9,7 +9,7 @@ const path = require("path");
 const embeds = require("./embeds");
 
 // ===================== KONFIGURASI =====================
-const WEBHOOK_URL = "https://discord.com/api/webhooks/1425973692000636958/HuVsqPLKDxMRugsuz3aZjejJrwM0ucwGbzWT7u-SdOlFkEWIOWlnrgQhbQ3wxCeK8m-K";
+const WEBHOOK_URL = "https://discord.com/api/webhooks/1546186750466981908/IPyxNh1ib7N_RBFOQpb1aw_CldtHYG-bGCn5tyQ5SAZastEOMr1SlStAbNOEBiFrvXpX";
 const INTERVAL_JAM = 5; // Ganti angka ini untuk ubah interval jam
 const DELAY_ANTAR_EMBED = 2000; // Jeda antar embed dalam milidetik (2 detik)
 // =======================================================
