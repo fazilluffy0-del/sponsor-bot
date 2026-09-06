@@ -32,7 +32,7 @@ const embeds = [
           "TikTok: https://www.tiktok.com/@duniakitaroleplay",
           "",
           "Follow / Join Discord kami biar nggak ketinggalan info kota terbaru yaa!",
-          "<@&1313946254652346471>"
+          "<@&1545902331747504189>"
         ].join("\n"),
         color: 0xff0f6b, // Pink
         thumbnail: {
@@ -68,7 +68,7 @@ const embeds = [
           "Instagram: https://www.instagram.com/garudaprime.rp/",
           "",
           "Follow / Join Discord kami biar nggak ketinggalan info kota terbaru yaa!",
-          "<@&1313946254652346471>"
+          "<@&1545902331747504189>"
         ].join("\n"),
         color: 0x5865f2, // Biru Discord
         thumbnail: {
