@@ -36,10 +36,10 @@ const embeds = [
         ].join("\n"),
         color: 0xff0f6b, // Pink
         thumbnail: {
-          url: "https://media.discordapp.net/attachments/1542609077966737460/1544206717171007528/logo.png?ex=6a97aa13&is=6a965893&hm=34b530bb45230f22d9414f974cfa61018bd4882a71b4aadcd95314b35ae5c756&=&format=webp&quality=lossless&width=768&height=768" // Isi URL logo sponsor
+          url: "https://media.discordapp.net/attachments/1546300245242159184/1546357043492028436/image.png?ex=6a9f7cb9&is=6a9e2b39&hm=cd8030f0cc32543af5f7c901a79bc7db3d34e8deb869f493f71280dad5191026&=&format=webp&quality=lossless&width=768&height=768" // Isi URL logo sponsor
         },
         image: {
-          url: "https://media.discordapp.net/attachments/1542609077966737460/1544201962176643173/dkbanners.png?ex=6a97a5a5&is=6a965425&hm=36f504e4afb3298a40226834e259d93f831e4c5836267d1da53897b122d06a17&=&format=webp&quality=lossless" // Isi URL banner sponsor
+          url: "https://media.discordapp.net/attachments/1546300245242159184/1546357486439764089/image.png?ex=6a9f7d22&is=6a9e2ba2&hm=ccbd9ef621ca194cdd4ef59855622b1be1d1e3032ae92a9457dd81cc3d9bfd9b&=&format=webp&quality=lossless" // Isi URL banner sponsor
         }
       }
     ]
