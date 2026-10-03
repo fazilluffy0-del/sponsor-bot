@@ -65,7 +65,7 @@ const embeds = [
           "> **Let's Join Our Discord and Grow Up Together!**",
           "> https://discord.gg/OpheliaRP",
           "",
-          " # OPHELIA ROLEPLAY",
+          "**OPHELIA ROLEPLAY**",
           "Where Every Story Becomes a Legacy. 👑",
           "",
           "Our TikTok:  https://www.tiktok.com/@ophelia.roleplay",
