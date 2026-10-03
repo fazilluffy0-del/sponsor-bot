@@ -70,7 +70,7 @@ const embeds = [
           "Follow / Join Discord kami biar nggak ketinggalan info kota terbaru yaa!",
           "<@&1545902331747504189>"
         ].join("\n"),
-        color: 0x5865f2, // Biru Discord
+        color: 0xff0000, // Biru Discord
         thumbnail: {
           url: "https://media.discordapp.net/attachments/1546300245242159184/1555833694101569618/image.png?ex=6ac1f68a&is=6ac0a50a&hm=eb3415c896c137532c348b88f1e66e04087689cc7400b696ba60ccf27f73955a&=&format=webp&quality=lossless"
         },
