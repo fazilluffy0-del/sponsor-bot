@@ -50,32 +50,32 @@ const embeds = [
     username: "SPONSORSHIP JING ARENA INDONESIA",
     embeds: [
       {
-        title: "GARUDA PRIME ROLEPLAY",
+        title: "OPHELIA ROLEPLAY",
         description: [
-          "**THE NEXT LEVEL OF ROLEPLAY IS HERE! ⚡**",
+          "**Not every city is made to be ordinary.😎**",
           "",
-          "Ingin merasakan pengalaman Roleplay yang beda, seru, dan didukung oleh komunitas yang solid?",
-          " GARUDA PRIME ROLEPLAY adalah tempat terbaik buat kamu membangun cerita dan karir impianmu!",
+          "Hadir dengan pengalaman roleplay yang dikembangkan dengan 1000+ fitur eksklusif ✨",
+          " sistem yang beragam, serta ruang bagi setiap cerita untuk tumbuh.",
           "",
-          "dan Admin yang siap sedia melayani kamu.",
-          "Dari aksi jalanan yang menegangkan sampai dunia bisnis yang kompetitif, semua ada di sini. Saatnya kamu jadi karakter utama!",
+          "Bagi Family & Badside yang ingin membangun nama, pengaruh, dan cerita mereka sendiri",
+          "Ophelia siap menjadi tempat berikutnya.",
           "",
-          "✨ Join Komunitas Kami Sekarang:",
-          "https://discord.gg/garudaprime",
+          "Berbagai event🎭 dan pengalaman baru akan terus hadir untuk mereka yang ingin menjadi bagian dari perjalanan ini.",
           "",
-          "TikTok: https://www.tiktok.com/@garudaprime.rp",
+          "Let's Join Our Discord and Grow Up Together!:",
+          "https://discord.gg/OpheliaRP",
           "",
-          "Instagram: https://www.instagram.com/garudaprime.rp/",
+          "TikTok:  https://www.tiktok.com/@ophelia.roleplay",
           "",
           "Follow / Join Discord kami biar nggak ketinggalan info kota terbaru yaa!",
           "<@&1545902331747504189>"
         ].join("\n"),
         color: 0x5865f2, // Biru Discord
         thumbnail: {
-          url: "https://media.discordapp.net/attachments/1321720260327641118/1505944794583793844/image.png?ex=6a165b22&is=6a1509a2&hm=0c558c027564e0a12c78b04b9314562ee6b351b01b51a2d4079ea6e32d1c1830&=&format=webp&quality=lossless&width=1005&height=565"
+          url: "https://cdn.discordapp.com/attachments/1546300245242159184/1555833694101569618/image.png?backend=b2&ex=6ac1f68a&is=6ac0a50a&hm=eb3415c896c137532c348b88f1e66e04087689cc7400b696ba60ccf27f73955a&"
         },
         image: {
-          url: "https://media.discordapp.net/attachments/1321720260327641118/1533048678300909578/image.png?ex=6a6fbb17&is=6a6e6997&hm=9a0356e13c683f57160a8d926ef086822910fc657e0d34073ee8d584790aa221&=&format=webp&quality=lossless&width=1280&height=120"
+          url: "https://cdn.discordapp.com/attachments/1555206028763734019/1555834482131607594/OpheliaGIF.gif?backend=b2&ex=6ac1f746&is=6ac0a5c6&hm=41adec168c6879b165855c2dec74958cee11e370b979ede020efdaa07f96325c&"
         }
       }
     ]
