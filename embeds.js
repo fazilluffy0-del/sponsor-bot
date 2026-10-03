@@ -72,7 +72,7 @@ const embeds = [
         ].join("\n"),
         color: 0xff0000, // Biru Discord
         thumbnail: {
-          url: "https://media.discordapp.net/attachments/1546300245242159184/1555833694101569618/image.png?ex=6ac1f68a&is=6ac0a50a&hm=eb3415c896c137532c348b88f1e66e04087689cc7400b696ba60ccf27f73955a&=&format=webp&quality=lossless"
+          url: "https://media.discordapp.net/attachments/1546300245242159184/1555836897660768267/image.png?backend=b2&ex=6ac1f986&is=6ac0a806&hm=f84c80db4ea5f971c5e187db975bf684ecadafd3f803f1bc1045902b58c0f060&=&format=webp&quality=lossless"
         },
         image: {
           url: "https://cdn.discordapp.com/attachments/1555206028763734019/1555834482131607594/OpheliaGIF.gif?backend=b2&ex=6ac1f746&is=6ac0a5c6&hm=41adec168c6879b165855c2dec74958cee11e370b979ede020efdaa07f96325c&"
