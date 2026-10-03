@@ -36,10 +36,10 @@ const embeds = [
         ].join("\n"),
         color: 0xff0f6b, // Pink
         thumbnail: {
-          url: "https://media.discordapp.net/attachments/1546300245242159184/1546357043492028436/image.png?ex=6a9f7cb9&is=6a9e2b39&hm=cd8030f0cc32543af5f7c901a79bc7db3d34e8deb869f493f71280dad5191026&=&format=webp&quality=lossless&width=768&height=768" // Isi URL logo sponsor
+          url: "https://media.discordapp.net/attachments/1546300543767547968/1555834396097912882/limage.png?backend=b2&ex=6ac1f732&is=6ac0a5b2&hm=2a040ced69325b3722285254c9f35c4ea985feafb84d98df2c46df60a9f6603a&=&format=webp&quality=lossless&width=768&height=768" // Isi URL logo sponsor
         },
         image: {
-          url: "https://media.discordapp.net/attachments/1546300245242159184/1546357486439764089/image.png?ex=6a9f7d22&is=6a9e2ba2&hm=ccbd9ef621ca194cdd4ef59855622b1be1d1e3032ae92a9457dd81cc3d9bfd9b&=&format=webp&quality=lossless" // Isi URL banner sponsor
+          url: "https://media.discordapp.net/attachments/1546353835361042442/1546355633610166292/Project_Name_97.gif?ex=6ac1c268&is=6ac070e8&hm=a0b25be3a6f53a7103a8d700ddbaa9dd9114aaf74d5c7a52e9f277f1364fec3b&=" // Isi URL banner sponsor
         }
       }
     ]
@@ -72,7 +72,7 @@ const embeds = [
         ].join("\n"),
         color: 0x5865f2, // Biru Discord
         thumbnail: {
-          url: "https://cdn.discordapp.com/attachments/1546300245242159184/1555833694101569618/image.png?backend=b2&ex=6ac1f68a&is=6ac0a50a&hm=eb3415c896c137532c348b88f1e66e04087689cc7400b696ba60ccf27f73955a&"
+          url: "https://media.discordapp.net/attachments/1546300245242159184/1555833694101569618/image.png?ex=6ac1f68a&is=6ac0a50a&hm=eb3415c896c137532c348b88f1e66e04087689cc7400b696ba60ccf27f73955a&=&format=webp&quality=lossless"
         },
         image: {
           url: "https://cdn.discordapp.com/attachments/1555206028763734019/1555834482131607594/OpheliaGIF.gif?backend=b2&ex=6ac1f746&is=6ac0a5c6&hm=41adec168c6879b165855c2dec74958cee11e370b979ede020efdaa07f96325c&"
