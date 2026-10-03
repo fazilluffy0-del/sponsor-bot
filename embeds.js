@@ -50,7 +50,7 @@ const embeds = [
     username: "SPONSORSHIP JING ARENA INDONESIA",
     embeds: [
       {
-        title: "# OPHELIA ROLEPLAY",
+        title: "**OPHELIA ROLEPLAY**",
         description: [
           "**Not every city is made to be ordinary.😎**",
           "",
